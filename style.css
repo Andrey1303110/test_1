@@ -1,0 +1,92 @@
+body {
+    width: 5000px;
+    height: 500px;
+
+}
+
+.road {
+    width: 5000px;
+    height: 500px;
+    background-image: url(./img/road.jpg);
+    background-repeat: round;
+}
+
+.car {
+    background-image: url(./img/leon.png);
+    background-repeat: round;
+    width: 350px;
+    height: 200px;
+    display: flex;
+}
+
+.car:nth-child(1) {
+    position: relative;
+    left: 20px;
+}
+
+.car:nth-child(2) {
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+.wheel {
+    background-image: url(./img/wheel.png);
+    background-repeat: round;
+    width: 57px;
+    height: 56px;
+}
+
+.wheel:nth-child(1) {
+    position: relative;
+    top: 140px;
+    left: 35px;
+}
+
+.wheel:nth-child(2) {
+    position: relative;
+    top: 138px;
+    left: 196px;
+}
+
+#stock_wheel {
+    transform: rotate(3600deg);
+    transition: 10.8s;
+    transition-timing-function: cubic-bezier(0.81, 0.01, 1, 1);
+    transition-delay: 2.8s;
+    animation-direction: alternate;
+}
+
+#chip_wheel {
+    transform: rotate(4000deg);
+    transition: 10s;
+    transition-timing-function: cubic-bezier(0.81, 0.09, 1, 1);
+    transition-delay: 2.8s;
+    animation-direction: alternate;
+}
+
+#stock_car {
+    transform: translateX(4500px);
+    transition-duration: 10.8s;
+    transition-timing-function: cubic-bezier(0.81, 0.01, 1, 1);
+    transition-delay: 3s;
+    animation-direction: alternate;
+}
+
+#chip_car {
+    transform: translateX(4500px);
+    transition-duration: 10s;
+    transition-timing-function: cubic-bezier(0.81, 0.01, 1, 1);
+    transition-delay: 3s;
+    animation-direction: alternate;
+}
+
+.time {
+    font-size: 100pt;
+    color: blueviolet;
+    position: relative;
+    top: -400px;
+    left: 4950px;
+    margin: 50px;
+}
+
