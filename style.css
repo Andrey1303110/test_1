@@ -52,6 +52,14 @@ body {
     transform: rotate(3600deg);
     transition: 10.8s;
     transition-timing-function: cubic-bezier(0.81, 0.01, 1, 1);
+    transition-delay: 3s;
+    animation-direction: alternate;
+}
+
+#stock_wheel:nth-child(2) {
+    transform: rotate(4500deg);
+    transition: 10.8s;
+    transition-timing-function: cubic-bezier(0.81, 0.15, 1, 1);
     transition-delay: 2.8s;
     animation-direction: alternate;
 }
@@ -60,6 +68,14 @@ body {
     transform: rotate(4000deg);
     transition: 10s;
     transition-timing-function: cubic-bezier(0.81, 0.09, 1, 1);
+    transition-delay: 3s;
+    animation-direction: alternate;
+}
+
+#chip_wheel:nth-child(2) {
+    transform: rotate(4850deg);
+    transition: 10s;
+    transition-timing-function: cubic-bezier(0.81, 0.25, 1, 1);
     transition-delay: 2.8s;
     animation-direction: alternate;
 }
