@@ -1,0 +1,227 @@
+body {
+    max-width: 2700px;
+    height: 1000px;
+}
+
+.text {
+    position: absolute;
+    font-size: 80px;
+    color: yellow;
+    opacity: 0;
+    left: 2040px;
+}
+
+.text:nth-child(1) {
+    animation: textanim 1s 22.56s forwards;
+}
+
+.text:nth-child(2) {
+    top: 100px;
+    animation: textanim 1s 21.3s forwards;
+}
+
+.text:nth-child(3) {
+    top: 200px;
+    animation: textanim 1s 21.16s forwards;
+}
+
+.text:nth-child(4) {
+    top: 300px;
+    animation: textanim 1s 19.39s forwards;
+}
+
+.text:nth-child(5) {
+    top: 400px;
+    animation: textanim 1s 19.12s forwards;
+}
+
+.text:nth-child(6) {
+    top: 500px;
+    animation: textanim 1s 18.64s forwards;
+}
+
+.text:nth-child(7) {
+    top: 600px;
+    animation: textanim 1s 18.32s forwards;
+}
+
+.text:nth-child(8) {
+    top: 700px;
+    animation: textanim 1s 17.83s forwards;
+}
+
+.text:nth-child(9) {
+    top: 800px;
+    animation: textanim 1s 17.46s forwards;
+}
+
+.text:nth-child(10) {
+    top: 900px;
+    animation: textanim 1s 16.53s forwards;
+}
+
+.road {
+    width: 2700px;
+    height: 1000px;
+    background-image: url(./img/road.jpg);
+    background-repeat: round;
+}
+
+.car {
+    background-image: url(./img/leon.png);
+    background-repeat: round;
+    width: 350px;
+    height: 200px;
+    display: flex;
+    transform: scale(.4);
+    left: -95px;
+    position: relative;
+}
+
+.car:nth-child(1) {
+    top: -60px;
+    animation: driving 20.56s cubic-bezier(0.64, 0.22, 0.87, 0.74) 2s forwards;
+}
+
+.car:nth-child(2) {
+    position: relative;
+    top: -160px;
+    animation: driving 19.3s cubic-bezier(0.64, 0.22, 0.87, 0.74) 2s forwards;
+}
+
+.car:nth-child(3) {
+    position: relative;
+    top: -260px;
+    animation: driving 19.16s cubic-bezier(0.64, 0.22, 0.87, 0.74) 2s forwards;
+}
+
+.car:nth-child(4) {
+    position: relative;
+    top: -360px;
+    animation: driving 17.39s cubic-bezier(0.64, 0.22, 0.87, 0.74) 2s forwards;
+}
+
+.car:nth-child(5) {
+    position: relative;
+    top: -460px;
+    animation: driving 17.12s cubic-bezier(0.64, 0.22, 0.87, 0.74) 2s forwards;
+}
+
+.car:nth-child(6) {
+    position: relative;
+    top: -560px;
+    animation: driving 16.64s cubic-bezier(0.64, 0.22, 0.87, 0.74) 2s forwards;
+}
+
+.car:nth-child(7) {
+    position: relative;
+    top: -660px;
+    animation: driving 16.32s cubic-bezier(0.64, 0.22, 0.87, 0.74) 2s forwards;
+}
+
+.car:nth-child(8) {
+    position: relative;
+    top: -760px;
+    animation: driving 15.83s cubic-bezier(0.64, 0.22, 0.87, 0.74) 2s forwards;
+}
+
+.car:nth-child(9) {
+    position: relative;
+    top: -860px;
+    animation: driving 15.46s cubic-bezier(0.64, 0.22, 0.87, 0.74) 2s forwards;
+}
+
+.car:nth-child(10) {
+    position: relative;
+    top: -960px;
+    animation: driving 14.53s cubic-bezier(0.64, 0.22, 0.87, 0.74) 2s forwards;
+}
+
+.wheel {
+    background-image: url(./img/wheel.png);
+    background-repeat: round;
+    width: 57px;
+    height: 56px;
+}
+
+.wheel:nth-child(1) {
+    position: relative;
+    top: 140px;
+    left: 35px;
+}
+
+.wheel:nth-child(2) {
+    position: relative;
+    top: 138px;
+    left: 196px;
+}
+
+#benz14 {
+    animation: wheelspin 20.56s cubic-bezier(0.64, 0.22, 0.87, 0.74) 2s forwards;
+}
+
+#benz16 {
+    animation: wheelspin 19.3s cubic-bezier(0.64, 0.22, 0.87, 0.74) 2s forwards;
+}
+
+#diesel19 {
+    animation: wheelspin 16.16s cubic-bezier(0.64, 0.22, 0.87, 0.74) 2s forwards;
+}
+
+#diesel20-140 {
+    animation: wheelspin 17.39s cubic-bezier(0.64, 0.22, 0.87, 0.74) 2s forwards;
+}
+
+#benz20fsi {
+    animation: wheelspin 17.12s cubic-bezier(0.64, 0.22, 0.87, 0.74) 2s forwards;
+}
+
+#benz18 {
+    animation: wheelspin 16.64s cubic-bezier(0.64, 0.22, 0.87, 0.74) 2s forwards;
+}
+
+#diesel20-170 {
+    animation: wheelspin 16.32s cubic-bezier(0.64, 0.22, 0.87, 0.74) 2s forwards;
+}
+
+#benz20-185 {
+    animation: wheelspin 15.83s cubic-bezier(0.64, 0.22, 0.87, 0.74) 2s forwards;
+}
+
+#benz20-200 {
+    animation: wheelspin 15.46s cubic-bezier(0.64, 0.22, 0.87, 0.74) 2s forwards;
+}
+
+#benz20-240 {
+    animation: wheelspin 14.53s cubic-bezier(0.64, 0.22, 0.87, 0.74) 2s forwards;
+}
+
+
+@keyframes driving {
+    from {
+        left: -95px;
+    }
+    to {
+        left: 2450px;
+    }
+}
+
+@keyframes wheelspin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(5000deg);
+    }
+}
+
+@keyframes textanim {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
