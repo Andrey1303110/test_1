@@ -1,5 +1,5 @@
 body {
-    max-width: 2700px;
+    max-width: 2800px;
     height: 1200px;
 }
 
@@ -72,7 +72,7 @@ body {
 }
 
 .road {
-    width: 2700px;
+    width: 2800px;
     height: 1200px;
     background-image: url(./img/road.jpg);
     background-repeat: round;
