@@ -217,25 +217,25 @@ body {
 
 .wheel-laguna:nth-child(1) {
     position: relative;
-    top: 99px;
+    top: 96px;
     left: 39px;
 }
 
 .wheel-laguna:nth-child(2) {
     position: relative;
-    top: 95px;
+    top: 92px;
     left: 239px;
 }
 
 .wheel-passat:nth-child(1) {
     position: relative;
-    top: 92px;
+    top: 89px;
     left: 51px;
 }
 
 .wheel-passat:nth-child(2) {
     position: relative;
-    top: 95px;
+    top: 92px;
     left: 233px;
 }
 
