@@ -9,6 +9,7 @@ body {
     color: yellow;
     opacity: 0;
     left: 1900px;
+    width: 750px;
 }
 
 .text:nth-child(1) {
@@ -134,7 +135,7 @@ body {
 .car:nth-child(10) {
     position: relative;
     top: -960px;
-    animation: driving 14.53s cubic-bezier(0.31, 0.33, 1, 0.48) 2s forwards;
+    animation: driving 14.53s cubic-bezier(0.45, 0.33, 0.85, 0.48) 2s forwards;
 }
 
 .wheel {
