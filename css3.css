@@ -2,14 +2,12 @@ body {
     width: 1300px;
 }
 
-
 .road {
     background-image: url(./img/road2.jpg);
     background-repeat: repeat-y;
     background-position: center;
     width: 300px;
     height: 2000px;
-    perspective: 50px;
     margin: 0 auto;
     transform: perspective(80px) rotatex(70deg);
     position: relative;
@@ -30,17 +28,16 @@ body {
 }
 
 #leon:hover {
-    animation: driving 10s cubic-bezier(0.72, 0.32, 0.47, 0.96) 1.5s alternate;
+    animation: driving 14s cubic-bezier(0.2, 0.2, 0, 0.99) 1.5s alternate;
     background-image: url(./img/leon-back-light.png);
     transform: translateY(3px);
 }
 
 @keyframes driving {
     0% {
-        transform: scale(1);
-        position: absolute;
-        top: 33px;
+
     }
+
     100% {
         transform: scale(.01);
         position: absolute;
